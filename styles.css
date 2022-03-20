@@ -1,0 +1,16 @@
+#board {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto;
+}
+
+.cell {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.cell.live-cell {
+    background-color: purple;
+}
